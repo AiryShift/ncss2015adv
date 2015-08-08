@@ -1,5 +1,4 @@
-line = input('Enter line: ')
-if 'aardvark' in line:
-  print('Aardvark!')
+if 'aardvark' in input('Enter line: '):
+    print('Aardvark!')
 else:
-  print('No aardvarks here :(')
+    print('No aardvarks here :(')
